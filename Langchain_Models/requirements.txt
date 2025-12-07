@@ -1,0 +1,23 @@
+langchain
+langchain-core
+
+# OpenAI
+langchain-openai
+openai
+
+
+# Google Gemini (WORKING)
+langchain-google-vertexai
+google-generativeai
+
+# HuggingFace
+langchain-huggingface
+transformers
+huggingface-hub
+
+# Env
+python-dotenv
+
+# ML Utils
+numpy>=1.26,<2.0
+scikit-learn
