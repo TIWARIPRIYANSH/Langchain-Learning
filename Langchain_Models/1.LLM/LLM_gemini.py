@@ -1,10 +1,10 @@
-from langchain_google_vertexai import ChatVertexAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 
 load_dotenv()
 
-llm = ChatVertexAI(
-    model="gemini-1.5-flash"   )
+llm = ChatGoogleGenerativeAI(
+    model="gemini-1.5-flash")
 
 result = llm.invoke("What is the capital of UP?")
 print(result)
